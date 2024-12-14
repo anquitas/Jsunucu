@@ -1,0 +1,17 @@
+{
+  "name": "jsunucu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jss": "json-server data/db.json",
+    "server": "json-server --watch data/db.json --port 4000 --routes routes/routes.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
