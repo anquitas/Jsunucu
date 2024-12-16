@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "jss": "json-server data/db.json",
-    "server": "json-server --watch data/db.json --port 4000 --routes routes/routes.json"
+    "server": "json-server --watch data/db.json --port 4000 --routes routes/routes.json",
+    "start": "json-server --watch data/db.json --port 4000 --routes routes/routes.json"
   },
   "keywords": [],
   "author": "",
